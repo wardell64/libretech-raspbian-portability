@@ -38,7 +38,7 @@ should still remain bootable on the original board.
 On your Raspberry Pi:registered:, run:
 ```bash
 sudo apt install -y git
-git clone https://github.com/libre-computer-project/libretech-raspbian-portability.git lrp
+git clone https://github.com/wardell64/libretech-raspbian-portability.git lrp
 sudo lrp/oneshot.sh aml-s905x-cc
 ```
 Replace aml-s905x-cc with the appropriate board you want the image to run on and follow the instructions.
